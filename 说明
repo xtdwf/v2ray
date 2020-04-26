@@ -6,7 +6,10 @@
 在这里可以找到 搬瓦工 VPS 优惠码
 使用 root 用户输入下面命令安装或卸载
 
-bash <(curl -s -L https://v2ray66.com/v2ray.sh)
+bash <(curl -s -L https://v2ray66.com/v2ray.sh
+or
+bash <(curl -s -L https://github.com/xtdwf/v2ray/raw/master/v2ray.sh)
+
 如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl
 ubuntu/debian 系统安装 Curl 方法: apt-get update -y && apt-get install curl -y
 centos 系统安装 Curl 方法: yum update -y && yum install curl -y
